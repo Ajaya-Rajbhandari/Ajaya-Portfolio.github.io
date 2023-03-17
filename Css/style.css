@@ -290,3 +290,15 @@ button {
 	border-radius: 3px;
 	cursor: pointer;
 }
+.card-img-top {
+  width: 280px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: .5s;
+}
+.card-img-top:hover {
+  transform: scale(1.35);
+}
+.mine{
+  text-align: center;
+}
