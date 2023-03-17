@@ -240,9 +240,14 @@
     padding: 1em;
 }
 header {
-	background-color: #333;
+	background-color: transparent;
 	color: #fff;
 	padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
 }
 
 nav ul {
@@ -260,12 +265,13 @@ nav li {
 nav a {
 	color: #fff;
 	text-decoration: none;
+  font-weight: bold;
 }
 
 main {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 1em;
+	padding: 2em;
 }
 
 section {
