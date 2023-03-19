@@ -10,9 +10,3 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
-
-function playVideo() {
-    var video = document.getElementById('my-video');
-    video.play();
-    document.querySelector('.play-button').style.display = 'none';
-  }

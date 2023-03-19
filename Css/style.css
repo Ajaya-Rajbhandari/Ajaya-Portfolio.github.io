@@ -295,12 +295,15 @@ button {
 }
 .card-img-top {
   width: 280px;
+  height: auto;
   aspect-ratio: 1;
   cursor: pointer;
   transition: .5s;
 }
 .card-img-top:hover {
   transform: scale(1.35);
+  width: auto;
+  height: auto;
 }
 .mine{
   text-align: center;
