@@ -6,7 +6,8 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('./imageFIle/night_light.jpg');
+    background: url('/imageFIle/night_light.jpg');
+    /* background: url('./imageFIle/night_light.jpg'); */
     background-size:cover;
     position:relative;
 }
