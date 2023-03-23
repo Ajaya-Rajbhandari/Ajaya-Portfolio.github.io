@@ -22,10 +22,17 @@
   .imageAboutPage {
     width: 280px;
     aspect-ratio: 1;
+    background:
+    radial-gradient(
+      circle closest-side,
+      #ECD078 calc(99% - var(--b)),
+      #C02942 calc(100% - var(--b)) 99%,
+      #0000
+    );
     cursor: pointer;
     transition: .5s;
   }
-  img.imageAboutPage:hover {
+  .imageAboutPage:hover {
     transform: scale(1.35);
   }
   .pl__ring--a {
