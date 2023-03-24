@@ -1,4 +1,4 @@
-# Ajaya-Portfolio.github.io
+# Portfolio
 Portfolio website 
 This Website is for learning porpose
 
