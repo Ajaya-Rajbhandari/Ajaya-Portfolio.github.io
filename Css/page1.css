@@ -18,7 +18,7 @@
     overflow: hidden;
   }
 
-  /*adding hover effect to the imageAbout*/
+  /* adding hover effect to the imageAbout
   .imageAboutPage {
     width: 280px;
     aspect-ratio: 1;
@@ -34,7 +34,7 @@
   }
   .imageAboutPage:hover {
     transform: scale(1.35);
-  }
+  } */
   .pl__ring--a {
     animation: growAndShrink 2s ease-in-out infinite alternate;
   }
