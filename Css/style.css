@@ -1,4 +1,9 @@
 /* display background color black on navbar scroll */
+/* 
+    This class is used to style the navbar when it is scrolled and has a dark theme.
+    It changes the background color of the navbar to black when it is scrolled.
+*/
+
 .navbarScroll.navbarDark {
     background-color: black;
 }
@@ -178,7 +183,17 @@
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size: 55%;
+    font-size: 1.71875rem;
+  }
+}
+
+:root {
+  --font-size-small: 55%;
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: var(--font-size-small);
   }
 }
 
